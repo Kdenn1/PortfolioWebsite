@@ -46,7 +46,7 @@
 #home {
     display: flex;
     flex-direction: column;
-    height: 840px;
+    height: 400px;
     background-color: black;
     justify-content: center;
     align-items: center;
@@ -58,8 +58,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: url(./img/portfolio\ pic.jpg) no-repeat center center/cover;
-    height: 900px;
+    height: 600px;
     width: 100%;
     z-index: -1;
     opacity: .8;
@@ -70,8 +69,6 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 30%;
-    right: 10%;
 }
 
 .headings {
@@ -96,4 +93,35 @@
     color: black;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
     font-weight: bold;
+}
+
+/* About stylings */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#pic {
+    display: flex;
+}
+
+#pic img {
+    width: 575px;
+    height: 400px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+#intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
